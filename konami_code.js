@@ -14,10 +14,7 @@ const codes = [
 index =0;
 function init() {
   // your code here
-  document.body.addEventListener('keydown',function(e){
-    alert("asdsa")
-    console.log(e.key)
-  })
+  document.body.addEventListener('keydown',checkKonami)
 }
 
 function checkKonami(e){
