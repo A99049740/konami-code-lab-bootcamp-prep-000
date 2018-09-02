@@ -19,7 +19,7 @@ function init() {
 
 function check(e){
   const key = e.key;
-  alert("Hurray!")
+  alert(key)
   ```if (key === codes[index]){
     index++
     if (index === codes.length){
