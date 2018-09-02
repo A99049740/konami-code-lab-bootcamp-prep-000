@@ -14,7 +14,7 @@ const codes = [
 index =0;
 function init() {
   // your code here
-  document.addEventListener('click',function(e){
+  document.body.addEventListener('click',function(e){
    console.log(e.which)
   })
 }
