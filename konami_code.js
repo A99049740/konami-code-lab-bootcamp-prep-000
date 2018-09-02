@@ -14,10 +14,10 @@ const codes = [
 index =0;
 function init() {
   // your code here
-  document.body.addEventListener('keydown',check)
+  document.body.addEventListener('keydown',checkKonami)
 }
 
-function check(e){
+function checkKonami(e){
   const key = e.key;
   alert(key)
   ```if (key === codes[index]){
