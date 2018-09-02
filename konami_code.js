@@ -19,7 +19,6 @@ function init() {
 
 function checkKonami(e){
   const key = e.key;
-  alert(key)
   console.log(key)
   if (key === codes[index]){
     index++
