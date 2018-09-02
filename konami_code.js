@@ -20,7 +20,7 @@ function init() {
 function check(e){
   const key = e.key;
   alert(key)
-  if (key === codes[index]){
+  ```if (key === codes[index]){
     index++
     if (index === codes.length){
       alert()
@@ -28,5 +28,5 @@ function check(e){
     }
   } else{
     index =0 
-  }
+  }```
 }
