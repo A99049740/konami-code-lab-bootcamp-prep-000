@@ -16,6 +16,7 @@ function init() {
   // your code here
   document.body.addEventListener('click',function(e){
     alert(e.key)
+    console.log(e.key)
   })
 }
 
