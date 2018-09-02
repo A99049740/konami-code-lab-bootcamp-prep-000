@@ -15,7 +15,7 @@ index =0;
 function init() {
   // your code here
   document.addEventListener('click',function(e){
-    alert("sfds")
+   console.log(e.which)
   })
 }
 
